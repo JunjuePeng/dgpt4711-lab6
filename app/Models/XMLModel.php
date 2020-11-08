@@ -7,8 +7,6 @@ class Places extends XMLModel{
     protected $keyField = 'id';
 protected $validationRules = [];
 }
-
-
 /**
  * SimpleModel persisted as XML document
  *  
