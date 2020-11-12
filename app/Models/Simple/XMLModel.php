@@ -1,12 +1,7 @@
 <?php
 namespace App\Models\Simple;
 
-use App\Models\Simple\XMLModel;
-class Places extends XMLModel{
-    protected $origin = WRITEPATH . 'data/placesData.xml';
-    protected $keyField = 'id';
-protected $validationRules = [];
-}
+
 /**
  * SimpleModel persisted as XML document
  *  
